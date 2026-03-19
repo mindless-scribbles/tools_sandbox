@@ -13,7 +13,7 @@ history = cmds.listHistory(mesh) or []
 num_keys = cmds.keyframe(curve, query=True, keyframeCount=True) or 0
 ```
 
-See `MindOverMind/maya_scripts/maya_blendshape_schema.py` lines 34, 43, 64, 86, 91 for consistent application.
+See `docs/blendshape_schema_examples.md` for examples of defensive guards applied consistently.
 
 ## Validate Before Querying
 

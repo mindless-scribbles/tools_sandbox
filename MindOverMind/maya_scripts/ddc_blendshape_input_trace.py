@@ -64,33 +64,33 @@ def get_sdk_keyframe_data(curve_node):
         num_keys = cmds.keyframe(curve_node, query=True, keyframeCount=True) or 0
         if num_keys == 0:
             return ""
-        float_values = cmds.keyframe(
+        sdk_input_values = cmds.keyframe(
             curve_node, query=True, floatChange=True
         ) or []
-        value_values = cmds.keyframe(
+        sdk_output_values = cmds.keyframe(
             curve_node, query=True, valueChange=True
         ) or []
-        if float_values and value_values:
+        if sdk_input_values and sdk_output_values:
             pairs = []
-            for fv, vv in zip(float_values, value_values):
-                pairs.append("({} -> {})".format(round(fv, 4), round(vv, 4)))
+            for input_val, output_val in zip(sdk_input_values, sdk_output_values):
+                pairs.append("({} -> {})".format(round(input_val, 4), round(output_val, 4)))
             return "keys: {}".format(", ".join(pairs))
     except Exception:
-        pass
+        cmds.warning("WARNING: get_sdk_keyframe_data - failed to read keyframes on {}".format(curve_node))
     return ""
 
 
 def get_pose_interpolator_drivers(psi_node):
     """Extract the driver transforms/joints feeding a poseInterpolator."""
     drivers = []
-    indices = cmds.getAttr(psi_node + ".driver", multiIndices=True) or []
-    for idx in indices:
-        conns = cmds.listConnections(
-            "{}.driver[{}].driverMatrix".format(psi_node, idx),
+    driver_slot_indices = cmds.getAttr(psi_node + ".driver", multiIndices=True) or []
+    for driver_slot_idx in driver_slot_indices:
+        driver_matrix_conns = cmds.listConnections(
+            "{}.driver[{}].driverMatrix".format(psi_node, driver_slot_idx),
             source=True, destination=False, plugs=True
         ) or []
-        if conns:
-            drivers.append(conns[0].split(".")[0])
+        if driver_matrix_conns:
+            drivers.append(driver_matrix_conns[0].split(".")[0])
     return list(dict.fromkeys(drivers))
 
 
@@ -100,39 +100,40 @@ def get_pose_interpolator_poses(psi_node):
     Returns a summary string describing each stored pose.
     """
     try:
-        pose_indices = cmds.getAttr(
+        pose_slot_indices = cmds.getAttr(
             psi_node + ".pose", multiIndices=True
         ) or []
         pose_info = []
-        for idx in pose_indices:
+        for pose_slot_idx in pose_slot_indices:
             # Try to get the pose name
             try:
                 pose_name = cmds.getAttr(
-                    "{}.pose[{}].poseName".format(psi_node, idx)
-                ) or "pose_{}".format(idx)
+                    "{}.pose[{}].poseName".format(psi_node, pose_slot_idx)
+                ) or "pose_{}".format(pose_slot_idx)
             except Exception:
-                pose_name = "pose_{}".format(idx)
+                cmds.warning("WARNING: get_pose_interpolator_poses - could not read poseName for pose {} on {}".format(pose_slot_idx, psi_node))
+                pose_name = "pose_{}".format(pose_slot_idx)
             pose_info.append(pose_name)
         if pose_info:
             return "Poses: {}".format(", ".join(pose_info))
     except Exception:
-        pass
+        cmds.warning("WARNING: get_pose_interpolator_poses - failed to read poses on {}".format(psi_node))
     return ""
 
 
 def get_combination_shape_inputs(combo_node):
     """Extract the input weight attributes feeding a combinationShape node."""
     inputs = []
-    indices = cmds.getAttr(
+    input_weight_indices = cmds.getAttr(
         combo_node + ".inputWeight", multiIndices=True
     ) or []
-    for idx in indices:
-        conns = cmds.listConnections(
-            "{}.inputWeight[{}]".format(combo_node, idx),
+    for input_weight_idx in input_weight_indices:
+        input_weight_conns = cmds.listConnections(
+            "{}.inputWeight[{}]".format(combo_node, input_weight_idx),
             source=True, destination=False, plugs=True,
             skipConversionNodes=True
         ) or []
-        inputs.extend(conns)
+        inputs.extend(input_weight_conns)
     return inputs
 
 
@@ -140,9 +141,18 @@ def trace_driver_chain(attr, depth=0, max_depth=20, visited=None):
     """
     Recursively trace upstream connections from a blendshape weight attribute.
 
-    Returns a list of driver records, each a dict with:
-      driver_node, driver_attr, driver_type, method, details,
-      upstream_controllers
+    Walks the dependency graph upstream via recursive calls, using a visited
+    set for cycle detection to avoid infinite loops in circular wiring.
+
+    Args:
+        attr: The Maya attribute plug string to trace (e.g. "blendShape1.jawOpen").
+        depth: Current recursion depth (used internally).
+        max_depth: Maximum recursion depth before bailing out. Defaults to 20.
+        visited: Set of already-visited attributes for cycle detection (used internally).
+
+    Returns:
+        list[dict]: Driver records, each containing: driver_node, driver_attr,
+        driver_type, method, details, upstream_controllers.
     """
     if visited is None:
         visited = set()

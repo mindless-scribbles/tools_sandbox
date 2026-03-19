@@ -20,14 +20,14 @@ Python 3.10 (`.python-version`). Dependencies: `maya-stubs`, `pymel`, `future`.
 Scripts run inside their host DCC interpreters (Maya Script Editor or UE5 Python console), not as standalone CLI tools.
 
 **Maya → Unreal pipeline:**
-1. `MindOverMind/maya_scripts/maya_blendshape_schema.py` — traces full driver chains (SDKs, PSD, combinationShape, expressions, etc.) for every blendshape target via recursive graph traversal with cycle detection. Exports CSV with shape classification and wiring details.
-2. `MindOverMind/unreal_scripts/build_facial_control_rig.py` — consumes CSV to build a Control Rig. Currently a placeholder.
+1. `MindOverMind/maya_scripts/ddc_blendshape_input_trace.py` — traces full driver chains (SDKs, PSD, combinationShape, expressions, etc.) for every blendshape target via recursive graph traversal with cycle detection. Exports CSV with shape classification and wiring details.
+2. `MindOverMind/pipeline/csv_to_control_rig_json.py` — standalone converter (no DCC dependencies) that reads the CSV, validates rows, parses pipe-delimited and embedded keyframe data into typed fields, and writes structured JSON grouped by blendshape node and target. CLI: `python csv_to_control_rig_json.py input.csv [output.json]`.
+3. `MindOverMind/unreal_scripts/build_facial_control_rig.py` — consumes JSON from step 2 to build a Control Rig. Currently a placeholder.
 
 **Standalone:** `HomeProjects/duplicator.py` — UE5 editor utility for duplicating actors with spacing/layout options.
 
 ## Key Details
 
-- `MindOverMind/unreal_scripts/` is missing `__init__.py`.
 - New Maya node types go in `trace_driver_chain` as additional `elif` branches.
 - No test suite exists yet.
 
@@ -39,7 +39,7 @@ Variable names describe what the data represents, not its type. Loop variables e
 - Bad: `indices`, `float_values`, `conns`, `idx`, `fv`
 - Good: `driver_slot_indices`, `driver_values`, `driver_matrix_conns`, `driver_slot_idx`, `driver_val`
 
-Known violations in `maya_blendshape_schema.py:67-75` (`float_values`, `value_values`, `fv`, `vv`) — fix when touched.
+See `docs/blendshape_schema_examples.md` for before/after naming examples.
 
 ### Docstrings
 
@@ -49,7 +49,7 @@ Every function gets a docstring: what it does, inputs, return value with type. O
 
 - No bare `except Exception: pass`. Every failure gets an explicit check with: `"WARNING: function_name - description on {node}"`
 - `continue` for non-fatal loop failures, `return []`/`return ""`/`return {}` for bail-outs after a warning.
-- Known violations in `maya_blendshape_schema.py:78-79` and `118-119` — fix when touched.
+- See `docs/blendshape_schema_examples.md` for before/after error handling examples.
 
 ### Defensive Coding
 
@@ -57,7 +57,7 @@ Guard None returns with `or []` / `or 0` / `or {}`. Critical for Maya `cmds` fun
 
 ### Deduplication
 
-`dict.fromkeys()` when order matters. Never `list(set(...))` on ordered data. See `maya_blendshape_schema.py:94`.
+`dict.fromkeys()` when order matters. Never `list(set(...))` on ordered data. See `docs/blendshape_schema_examples.md`.
 
 ### Guard Clauses
 

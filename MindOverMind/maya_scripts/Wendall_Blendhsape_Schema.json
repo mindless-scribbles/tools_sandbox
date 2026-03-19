@@ -1,0 +1,2827 @@
+{
+    "metadata": {
+        "source_csv": "Wendall_Blendhsape_Schema.csv",
+        "export_date": "2026-03-19T15:12:33",
+        "total_targets": 97,
+        "total_blendshape_nodes": 1
+    },
+    "blendshape_nodes": {
+        "asFaceBS": {
+            "targets": {
+                "brow_innerRaiser_R": {
+                    "target_index": 0,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_innerRaiser_R",
+                            "immediate_driver_attr": "asFaceBS_brow_innerRaiser_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_squeeze_L": {
+                    "target_index": 10,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_squeeze_L",
+                            "immediate_driver_attr": "asFaceBS_brow_squeeze_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_L.squeeze"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_L.squeeze",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_outerUpDown_L": {
+                    "target_index": 11,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_outerUpDown_L",
+                            "immediate_driver_attr": "asFaceBS_brow_outerUpDown_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_L.outerUpDown"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_L.outerUpDown",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_left_R": {
+                    "target_index": 12,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_left_R",
+                            "immediate_driver_attr": "asFaceBS_eye_left_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_right_R": {
+                    "target_index": 13,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_right_R",
+                            "immediate_driver_attr": "asFaceBS_eye_right_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_up_R": {
+                    "target_index": 14,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_up_R",
+                            "immediate_driver_attr": "asFaceBS_eye_up_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_down_R": {
+                    "target_index": 15,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_down_R",
+                            "immediate_driver_attr": "asFaceBS_eye_down_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "ctrlEyewide_R": {
+                    "target_index": 16,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_ctrlEyewide_R",
+                            "immediate_driver_attr": "asFaceBS_ctrlEyewide_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.wide"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.wide",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "blink_R": {
+                    "target_index": 17,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_blink_R",
+                            "immediate_driver_attr": "asFaceBS_blink_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.blink"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.blink",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "squint_R": {
+                    "target_index": 18,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_squint_R",
+                            "immediate_driver_attr": "asFaceBS_squint_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_R.squint"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_R.squint",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_left_L": {
+                    "target_index": 19,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_left_L",
+                            "immediate_driver_attr": "asFaceBS_eye_left_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_innerlower_R": {
+                    "target_index": 1,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_innerlower_R",
+                            "immediate_driver_attr": "asFaceBS_brow_innerlower_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_right_L": {
+                    "target_index": 20,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_right_L",
+                            "immediate_driver_attr": "asFaceBS_eye_right_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_up_L": {
+                    "target_index": 21,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_up_L",
+                            "immediate_driver_attr": "asFaceBS_eye_up_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eye_down_L": {
+                    "target_index": 22,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eye_down_L",
+                            "immediate_driver_attr": "asFaceBS_eye_down_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "ctrlEyewide_L": {
+                    "target_index": 23,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_ctrlEyewide_L",
+                            "immediate_driver_attr": "asFaceBS_ctrlEyewide_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.wide"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.wide",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "blink_L": {
+                    "target_index": 24,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_blink_L",
+                            "immediate_driver_attr": "asFaceBS_blink_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.blink"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.blink",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "squint_L": {
+                    "target_index": 25,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_squint_L",
+                            "immediate_driver_attr": "asFaceBS_squint_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEye_L.squint"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEye_L.squint",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "cheek_out_R": {
+                    "target_index": 26,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_cheek_out_R",
+                            "immediate_driver_attr": "asFaceBS_cheek_out_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlCheek_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlCheek_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "cheek_in_R": {
+                    "target_index": 27,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_cheek_in_R",
+                            "immediate_driver_attr": "asFaceBS_cheek_in_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlCheek_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlCheek_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "cheek_raiser_R": {
+                    "target_index": 28,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_cheek_raiser_R",
+                            "immediate_driver_attr": "asFaceBS_cheek_raiser_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlCheek_R.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlCheek_R.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "cheek_out_L": {
+                    "target_index": 29,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_cheek_out_L",
+                            "immediate_driver_attr": "asFaceBS_cheek_out_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlCheek_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlCheek_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_raiser_R": {
+                    "target_index": 2,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_raiser_R",
+                            "immediate_driver_attr": "asFaceBS_brow_raiser_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_R.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_R.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "cheek_in_L": {
+                    "target_index": 30,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_cheek_in_L",
+                            "immediate_driver_attr": "asFaceBS_cheek_in_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlCheek_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlCheek_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "cheek_raiser_L": {
+                    "target_index": 31,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_cheek_raiser_L",
+                            "immediate_driver_attr": "asFaceBS_cheek_raiser_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlCheek_L.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlCheek_L.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "nose_wide_R": {
+                    "target_index": 32,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_nose_wide_R",
+                            "immediate_driver_attr": "asFaceBS_nose_wide_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlNose_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlNose_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "nose_narrow_R": {
+                    "target_index": 33,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_nose_narrow_R",
+                            "immediate_driver_attr": "asFaceBS_nose_narrow_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlNose_R.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlNose_R.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "nose_raiser_R": {
+                    "target_index": 34,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_nose_raiser_R",
+                            "immediate_driver_attr": "asFaceBS_nose_raiser_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlNose_R.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlNose_R.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "nose_wide_L": {
+                    "target_index": 35,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_nose_wide_L",
+                            "immediate_driver_attr": "asFaceBS_nose_wide_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlNose_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlNose_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "nose_narrow_L": {
+                    "target_index": 36,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_nose_narrow_L",
+                            "immediate_driver_attr": "asFaceBS_nose_narrow_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlNose_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlNose_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "nose_raiser_L": {
+                    "target_index": 37,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_nose_raiser_L",
+                            "immediate_driver_attr": "asFaceBS_nose_raiser_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlNose_L.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlNose_L.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_left_M": {
+                    "target_index": 38,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_left_M",
+                            "immediate_driver_attr": "asFaceBS_lip_left_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_right_M": {
+                    "target_index": 39,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_right_M",
+                            "immediate_driver_attr": "asFaceBS_lip_right_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_lower_R": {
+                    "target_index": 3,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_lower_R",
+                            "immediate_driver_attr": "asFaceBS_brow_lower_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_R.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_R.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_up_M": {
+                    "target_index": 40,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_up_M",
+                            "immediate_driver_attr": "asFaceBS_lip_up_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_down_M": {
+                    "target_index": 41,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_down_M",
+                            "immediate_driver_attr": "asFaceBS_lip_down_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperPressPos_M": {
+                    "target_index": 42,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperPressPos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperPressPos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperPress"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperPress",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperPressNeg_M": {
+                    "target_index": 43,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperPressNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperPressNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperPress"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperPress",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerPressPos_M": {
+                    "target_index": 44,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerPressPos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerPressPos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerPress"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerPress",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerPressNeg_M": {
+                    "target_index": 45,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerPressNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerPressNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerPress"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerPress",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperSqueezePos_M": {
+                    "target_index": 46,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperSqueezePos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperSqueezePos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperSqueeze"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperSqueeze",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperSqueezeNeg_M": {
+                    "target_index": 47,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperSqueezeNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperSqueezeNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperSqueeze"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperSqueeze",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerSqueezePos_M": {
+                    "target_index": 48,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerSqueezePos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerSqueezePos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerSqueeze"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerSqueeze",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerSqueezeNeg_M": {
+                    "target_index": 49,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerSqueezeNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerSqueezeNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerSqueeze"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerSqueeze",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_squeeze_R": {
+                    "target_index": 4,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_squeeze_R",
+                            "immediate_driver_attr": "asFaceBS_brow_squeeze_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_R.squeeze"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_R.squeeze",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperRollPos_M": {
+                    "target_index": 50,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperRollPos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperRollPos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperRoll"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperRoll",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperRollNeg_M": {
+                    "target_index": 51,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperRollNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperRollNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperRoll"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperRoll",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerRollPos_M": {
+                    "target_index": 52,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerRollPos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerRollPos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerRoll"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerRoll",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerRollNeg_M": {
+                    "target_index": 53,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerRollNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerRollNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerRoll"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerRoll",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperPuckerPos_M": {
+                    "target_index": 54,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperPuckerPos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperPuckerPos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperPucker"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperPucker",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_upperPuckerNeg_M": {
+                    "target_index": 55,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_upperPuckerNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_upperPuckerNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.upperPucker"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.upperPucker",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerPuckerPos_M": {
+                    "target_index": 56,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerPuckerPos_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerPuckerPos_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerPucker"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerPucker",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lip_lowerPuckerNeg_M": {
+                    "target_index": 57,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lip_lowerPuckerNeg_M",
+                            "immediate_driver_attr": "asFaceBS_lip_lowerPuckerNeg_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlLips_M.lowerPucker"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlLips_M.lowerPucker",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_wide_M": {
+                    "target_index": 58,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_wide_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_wide_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_narrow_M": {
+                    "target_index": 59,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_narrow_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_narrow_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_outerUpDown_R": {
+                    "target_index": 5,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_outerUpDown_R",
+                            "immediate_driver_attr": "asFaceBS_brow_outerUpDown_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_R.outerUpDown"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_R.outerUpDown",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_close_M": {
+                    "target_index": 60,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_close_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_close_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_open_M": {
+                    "target_index": 61,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_open_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_open_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_jawForwardIn_M": {
+                    "target_index": 62,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_jawForwardIn_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_jawForwardIn_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.jawForward"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.jawForward",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_jawForwardOut_M": {
+                    "target_index": 63,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_jawForwardOut_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_jawForwardOut_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.jawForward"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.jawForward",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_jawSideIn_M": {
+                    "target_index": 64,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_jawSideIn_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_jawSideIn_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.jawSide"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.jawSide",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_jawSideOut_M": {
+                    "target_index": 65,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_jawSideOut_M",
+                            "immediate_driver_attr": "asFaceBS_mouth_jawSideOut_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlMouth_M.jawSide"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlMouth_M.jawSide",
+                                "keyframes": [
+                                    {
+                                        "input": -10.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_wide_R": {
+                    "target_index": 66,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_wide_R",
+                            "immediate_driver_attr": "asFaceBS_mouth_wide_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_R_translateX.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_R_translateX.output",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_narrow_R": {
+                    "target_index": 67,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_narrow_R",
+                            "immediate_driver_attr": "asFaceBS_mouth_narrow_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_R_translateX.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_R_translateX.output",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_raiser_R": {
+                    "target_index": 68,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_raiser_R",
+                            "immediate_driver_attr": "asFaceBS_mouth_raiser_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_R_translateY.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_R_translateY.output",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_lower_R": {
+                    "target_index": 69,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_lower_R",
+                            "immediate_driver_attr": "asFaceBS_mouth_lower_R.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_R_translateY.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_R_translateY.output",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_innerRaiser_L": {
+                    "target_index": 6,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_innerRaiser_L",
+                            "immediate_driver_attr": "asFaceBS_brow_innerRaiser_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_wide_L": {
+                    "target_index": 70,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_wide_L",
+                            "immediate_driver_attr": "asFaceBS_mouth_wide_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_L_translateX.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_L_translateX.output",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_narrow_L": {
+                    "target_index": 71,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_narrow_L",
+                            "immediate_driver_attr": "asFaceBS_mouth_narrow_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_L_translateX.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_L_translateX.output",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_raiser_L": {
+                    "target_index": 72,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_raiser_L",
+                            "immediate_driver_attr": "asFaceBS_mouth_raiser_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_L_translateY.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_L_translateY.output",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mouth_lower_L": {
+                    "target_index": 73,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mouth_lower_L",
+                            "immediate_driver_attr": "asFaceBS_mouth_lower_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "bwctrlMouthCorner_L_translateY.output"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "bwctrlMouthCorner_L_translateY.output",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "aaa_M": {
+                    "target_index": 74,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_aaa_M",
+                            "immediate_driver_attr": "asFaceBS_aaa_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.aaa"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.aaa",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "eh_M": {
+                    "target_index": 75,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_eh_M",
+                            "immediate_driver_attr": "asFaceBS_eh_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.eh"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.eh",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "ahh_M": {
+                    "target_index": 76,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_ahh_M",
+                            "immediate_driver_attr": "asFaceBS_ahh_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.ahh"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.ahh",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "ohh_M": {
+                    "target_index": 77,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_ohh_M",
+                            "immediate_driver_attr": "asFaceBS_ohh_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.ohh"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.ohh",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "uuu_M": {
+                    "target_index": 78,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_uuu_M",
+                            "immediate_driver_attr": "asFaceBS_uuu_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.uuu"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.uuu",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "iee_M": {
+                    "target_index": 79,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_iee_M",
+                            "immediate_driver_attr": "asFaceBS_iee_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.iee"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.iee",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_innerlower_L": {
+                    "target_index": 7,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_innerlower_L",
+                            "immediate_driver_attr": "asFaceBS_brow_innerlower_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_L.translateX"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_L.translateX",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "rrr_M": {
+                    "target_index": 80,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_rrr_M",
+                            "immediate_driver_attr": "asFaceBS_rrr_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.rrr"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.rrr",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "www_M": {
+                    "target_index": 81,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_www_M",
+                            "immediate_driver_attr": "asFaceBS_www_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.www"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.www",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "sss_M": {
+                    "target_index": 82,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_sss_M",
+                            "immediate_driver_attr": "asFaceBS_sss_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.sss"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.sss",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "fff_M": {
+                    "target_index": 83,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_fff_M",
+                            "immediate_driver_attr": "asFaceBS_fff_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.fff"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.fff",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "tth_M": {
+                    "target_index": 84,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_tth_M",
+                            "immediate_driver_attr": "asFaceBS_tth_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.tth"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.tth",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "mbp_M": {
+                    "target_index": 85,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_mbp_M",
+                            "immediate_driver_attr": "asFaceBS_mbp_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.mbp"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.mbp",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "ssh_M": {
+                    "target_index": 86,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_ssh_M",
+                            "immediate_driver_attr": "asFaceBS_ssh_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.ssh"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.ssh",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "schwa_M": {
+                    "target_index": 87,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_schwa_M",
+                            "immediate_driver_attr": "asFaceBS_schwa_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.schwa"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.schwa",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "gk_M": {
+                    "target_index": 88,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_gk_M",
+                            "immediate_driver_attr": "asFaceBS_gk_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.gk"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.gk",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "lntd_M": {
+                    "target_index": 89,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_lntd_M",
+                            "immediate_driver_attr": "asFaceBS_lntd_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlPhonemes_M.lntd"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlPhonemes_M.lntd",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_raiser_L": {
+                    "target_index": 8,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_raiser_L",
+                            "immediate_driver_attr": "asFaceBS_brow_raiser_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_L.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_L.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 1.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "happy_M": {
+                    "target_index": 90,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_happy_M",
+                            "immediate_driver_attr": "asFaceBS_happy_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.happy"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.happy",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "angry_M": {
+                    "target_index": 91,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_angry_M",
+                            "immediate_driver_attr": "asFaceBS_angry_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.angry"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.angry",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "sad_M": {
+                    "target_index": 92,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_sad_M",
+                            "immediate_driver_attr": "asFaceBS_sad_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.sad"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.sad",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "surprise_M": {
+                    "target_index": 93,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_surprise_M",
+                            "immediate_driver_attr": "asFaceBS_surprise_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.surprise"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.surprise",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "fear_M": {
+                    "target_index": 94,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_fear_M",
+                            "immediate_driver_attr": "asFaceBS_fear_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.fear"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.fear",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "disgust_M": {
+                    "target_index": 95,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_disgust_M",
+                            "immediate_driver_attr": "asFaceBS_disgust_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.disgust"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.disgust",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "contempt_M": {
+                    "target_index": 96,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_contempt_M",
+                            "immediate_driver_attr": "asFaceBS_contempt_M.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlEmotions_M.contempt"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlEmotions_M.contempt",
+                                "keyframes": [
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    },
+                                    {
+                                        "input": 10.0,
+                                        "output": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "brow_lower_L": {
+                    "target_index": 9,
+                    "shape_classification": "primary",
+                    "current_weight": 0.0,
+                    "drivers": [
+                        {
+                            "driving_method": "setDrivenKey",
+                            "immediate_driver_node": "asFaceBS_brow_lower_L",
+                            "immediate_driver_attr": "asFaceBS_brow_lower_L.output",
+                            "immediate_driver_type": "animCurveUU",
+                            "ultimate_controller_attrs": [
+                                "ctrlBrow_L.translateY"
+                            ],
+                            "parsed_details": {
+                                "sdk_input": "ctrlBrow_L.translateY",
+                                "keyframes": [
+                                    {
+                                        "input": -1.0,
+                                        "output": 1.0
+                                    },
+                                    {
+                                        "input": 0.0,
+                                        "output": 0.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,9 @@
       "Bash(uv add:*)",
       "Bash(curl -s https://pypi.org/pypi/maya-stubs/json)",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d[''''info''''][''''version''''], d[''''info''''][''''summary'''']\\)\")",
-      "Bash(find ~/.claude/plugins -type f -name *.md -o -name *.json -o -name *.lua)"
+      "Bash(find ~/.claude/plugins -type f -name *.md -o -name *.json -o -name *.lua)",
+      "Bash(python MindOverMind/pipeline/csv_to_control_rig_json.py \"MindOverMind/maya_scripts/Wendall_Blendhsape_Schema.csv\")",
+      "Bash(npx pyright:*)"
     ]
   }
 }
