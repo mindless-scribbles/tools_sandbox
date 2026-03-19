@@ -1,0 +1,10 @@
+[project]
+name = "tools-sandbox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "maya-stubs>=0.4.2",
+    "pymel>=1.5.0",
+]
