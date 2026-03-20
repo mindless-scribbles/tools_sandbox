@@ -425,6 +425,11 @@ def group_rows_by_node_and_target(csv_rows):
         driver_record = build_driver_record(csv_row)
         node_targets[target_name]["drivers"].append(driver_record)
 
+    for node_name in grouped:
+        unsorted_targets = grouped[node_name]
+        grouped[node_name] = dict(
+            sorted(unsorted_targets.items(), key=lambda item: item[1]["target_index"])
+        )
     return grouped
 
 

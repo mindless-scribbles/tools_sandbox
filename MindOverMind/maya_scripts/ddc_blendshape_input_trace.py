@@ -51,6 +51,7 @@ def get_target_info(bs_node):
             "name": alias_name,
             "weight_attr": "{}.{}".format(bs_node, alias_name),
         })
+    targets.sort(key=lambda t: t["index"])
     return targets
 
 
